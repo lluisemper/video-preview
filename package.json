@@ -1,6 +1,6 @@
 {
   "name": "video-preview-buffer",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "This package recieves a file type video and returns an image type Buffer",
   "main": "index.js",
   "scripts": {

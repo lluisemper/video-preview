@@ -23,7 +23,7 @@ const { screenshot } = require("video-preview-buffer")
 #### Usage promise chaining
 
 ```sh
-screenshot("video-url" , 5).then(previewImage => console.log("My preview as Buffer: ",previewImage))
+screenshot("video-url" , "number of seconds in which the preview will be taken").then(previewImage => console.log("My preview as Buffer: ",previewImage))
 ```
 
 #### Usage async/await
@@ -31,7 +31,7 @@ screenshot("video-url" , 5).then(previewImage => console.log("My preview as Buff
 ##### Inside of an async funciton
 
 ```sh
-const previewImage = await screenshot("video-url" , 5)
+const previewImage = await screenshot("video-url" , "number of seconds in which the preview will be taken")
 console.log("My preview as Buffer: ", previewImage))
 ```
 
