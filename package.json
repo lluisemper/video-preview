@@ -1,0 +1,20 @@
+{
+  "name": "video-preview-buffer",
+  "version": "1.0.0",
+  "description": "This package recieves a file type video and returns an image type Buffer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lluisemper/video-preview.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lluisemper/video-preview/issues"
+  },
+  "homepage": "https://github.com/lluisemper/video-preview#readme"
+}
