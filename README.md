@@ -16,7 +16,7 @@ npm i video-preview-buffer
 ## Usage
 
 ```sh
-const { screenshot } = require("video-previe-buffer")
+const { screenshot } = require("video-preview-buffer")
 ```
 
 ### Usage promise chaining
