@@ -1,6 +1,6 @@
 const spawn = require("child_process").spawn;
 
-const screenshot = (file, time) => {
+exports.screenshot = (file, time) => {
   return new Promise((resolve) => {
     const argumentsFfmpeg = [
       "-ss",
@@ -21,3 +21,5 @@ const screenshot = (file, time) => {
     runner.on("close", () => resolve(Buffer.concat(dataCache)));
   });
 };
+
+module.exports = exports;
